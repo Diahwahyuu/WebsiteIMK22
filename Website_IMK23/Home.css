@@ -1,0 +1,304 @@
+html, body {
+    margin : 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #E9EFFF;
+}
+
+.navbar {
+    display: flex; 
+    justify-content: space-around;  
+    align-items: center;
+    background-color: white;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul a {
+    text-decoration: none;
+    color: #71839b;
+    font-weight: 550;
+    margin: 16px;
+}
+
+.SubMainContent1 {
+    text-align: start;
+    align-content: center;
+    
+}
+
+.Orang3 {
+    width: 350px;
+    text-align: start;
+}
+
+.MainContent1 {
+    display: flex;
+    margin-top: 150px;
+    margin-left: 300px;
+    background-color: white;
+    height: 370px;
+    width: 890px;
+    border-radius: 50px;
+}
+
+.Mulai {
+    padding-top: 5px;
+}
+
+.Utama1 {
+    background-color: #E9EFFF;
+}
+
+.SubMainContent1 h2 {
+    margin-top: 60px;
+}
+
+.SubMainContent1 a {
+    padding: 5px 25px;
+    background-color: #3A00E5;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    font-size: small;
+}
+
+.SubMainContent1 p {
+    margin-bottom: 20px;
+}
+
+.Kotak {
+    justify-content: space-around;
+    display: flex;
+    margin-top: 40px;
+    background-color: #3A00E5;
+    width: 100vw;
+    height: 420px;
+}
+
+.MainContent2 h2 {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.Profil {
+    width: 80px;
+    margin-left: 60px;
+    margin-bottom: 5px;
+    margin-top: -40px;
+}
+
+.Kotak1 {
+    background-color: white;   
+    width: 250px;
+    height: 230px;
+    padding-left: 40px;
+    margin-top: 100px;
+    border-radius: 50px;
+    margin-left: 90px;
+}
+
+.Kotak2 {
+    background-color: white;   
+    width: 250px;
+    height: 230px;
+    padding-left: 40px;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+
+.Kotak3 {
+    background-color: white;   
+    width: 250px;
+    height: 230px;
+    padding-left: 40px;
+    margin-top: 100px;
+    border-radius: 50px;
+    margin-right: 90px;
+}
+
+.MainContent7 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #4A7DFF;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    
+}
+
+.Information ul{
+    list-style: none;
+    color: white;
+    list-style: none;
+    font-size: 11px;
+    line-height: 30px;
+}
+
+.Information ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.MainContent7 .GambarMainContent7_1 {
+    padding-top: 10px;
+}
+
+.Information h4 {
+    font-size: 16px;
+}
+
+.SubMainContent7 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    background-color: #4A7DFF;
+    color: white;
+}
+
+.SubMainContent7 .Penutup {
+    text-align: center;
+    font-size: 14px;
+}
+
+.Tombol a {
+    text-decoration: none;
+    color: #0c51ff;
+}
+
+.SubMainContent5 a {
+    text-decoration: none;
+    color: white;
+}
+
+.SubMainContent4 a {
+    text-decoration: none;
+    color: #0c51ff;
+}
+
+.Mulai a {
+    text-decoration: none;
+    color: white;
+}
+
+.SubMainContent7 hr {
+    width: 80%;
+}
+
+.ProfilPojok {
+    margin-left: 10px;
+    width: 30px;
+}
+
+.gambar {
+    display: flex;
+}
+
+.gambar2 {
+    justify-self: end;
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Latar belakang hitam semi-transparan */
+    z-index: 1000;
+}
+
+.popup-container {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 40px 20px 25px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    z-index: 1001; /* Lebih tinggi dari z-index overlay */
+}
+
+.button1 {
+    margin-left: 67px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px 20px 8px 20px;
+    background-color: #0c51ff;
+    border-style: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.GambarPopUp1 {
+    width: 110px;
+    margin-left: 67px;
+}
+
+.GambarPopUp2 {
+    width: 180px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+
+.GambarPopUp22 {
+    width: 210px;
+    margin-left: 15px;
+}
+
+.popup-container p {
+    margin-left: 15px;
+}
+
+.button2 {
+    margin-left: 67px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px 20px 8px 20px;
+    background-color: #0c51ff;
+    border-style: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.button3 {
+    margin-left: 65px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 8px 20px 8px 20px;
+    background-color: #0c51ff;
+    border-style: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.GambarPopUp3 {
+    width: 150px;
+    margin-left: 40px;
+}
+
+.h23 {
+    margin-left: 42px;
+}
+
+.h22 {
+    margin-left: 53px;
+}
+
+.h21 {
+    margin-left: 55px;
+}
+
+.MulaiTestUtama {
+    padding: 8px 28px;
+    background-color: #3A00E5;
+    color: white;
+    border-style: none;
+    border-radius: 20px;
+}

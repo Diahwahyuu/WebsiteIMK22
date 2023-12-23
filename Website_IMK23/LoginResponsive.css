@@ -1,0 +1,147 @@
+html, body {
+    margin : 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.MainL1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Google {
+    width: 10px;
+    border: none;
+}
+
+.Signin {
+    border-style: none;
+}
+
+.SubMainL1 {
+    background-color: #3A00E5;
+    color: white;
+    height: 100vh;
+    padding: 3%;
+    box-sizing: border-box;
+}
+
+.SubMainL1>h3 {
+    margin-bottom: 90px;
+}
+
+.orang{
+    width: 500px;
+    
+}
+
+.SubMainL12 {
+    margin-right: 200px;
+}
+
+.SubMainL12 h3 {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 400px; /* Mengatur lebar input teks sebesar 200 piksel */
+    height: 30px;
+}
+
+input[type="password"] {
+    width: 400px; /* Mengatur lebar input teks sebesar 200 piksel */
+    height: 30px;
+}
+
+.Forget {
+    margin-top: 20px;
+    text-align: end;
+    color: #3B72FF;
+    font-size: 14px;
+}
+
+.Login {
+    background-color: #0C51FF;
+    border-radius: 35px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 185px;
+    padding-right: 185px;
+    border: none;
+    margin-top: 10px;
+}
+
+.Login a {
+    color: white;
+    text-decoration: none;
+}
+
+.Signin button {
+    color: white;
+    border-radius: 35px;
+    margin-top: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 135px;
+    padding-right: 135px;
+    text-align: center;
+}
+
+.Signin a {
+    color: black;
+    text-decoration: none;
+}
+
+.Daftar {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.SubMainL1 h1 {
+    margin-left: 2px;
+}
+
+.Title {
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 768px) {
+    .SubMainL1 {
+        width: 50%;
+    }
+
+    .orang {
+        margin-top: 100px;
+        width: 300px;
+    }
+
+    .SubMainL12 {
+        margin-right: 50%;
+    }
+
+    .Form{
+        width: 50%;
+    }
+
+    .Login{
+        width: 30px;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        width: 115%; /* Set width to 100% to make it responsive */
+        box-sizing: border-box; 
+        margin-bottom: 10px; /* Add some spacing between input fields */
+        margin-left: 50px;
+    }
+
+    .SubMainL12 p {
+        margin-left: 50px;
+    }
+
+    .Forget a {
+        margin-right: 110px;
+    }
+}
